@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>navExampleComponent</title>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+ 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
+
+
+ 	 <style>
+  .jumbotron {
+  	background-color: #EEE2DC;
+  }
+  .container-fluid
+  {
+  	background-color: #242582;
+  }
+  .p
+  {
+  	background-color: #FFE400;
+  }
+  </style>
+  <style type="text/css">
+   body { background: #f2f2f2 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+</head>
+</head>
+<body>
+
+		<div class="container">
+			<div class="col-xs-12">
+
+				<nav class="navbar navbar-default">
+				<div class="jumbotron text-left" >
+				
+
+				
+					<P class="text-info" text-size align-center>EasyTech.Life  coming soon..</P>
+
+				</div>
+				
+
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+</nav>
+
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="Big-Data-Internet-of-Things.jpg" alt="Big data analytics" style="width:80% height:60% ;">
+        <br/>
+         <p>According to experts, Big Data can create a lot of new growth opportunities. It can even give rise to a new category of businesses, such as the ones that analyze and aggregate industry data. Most of these companies will be sitting in the middle of large information flows about services and products, suppliers and buyers, consumer intent and preferences, and more. Companies across industries should start building their Big Data capabilities aggressively.</p>
+      </div>
+
+      <div class="item">
+        <img src="ai-shareable-1.jpg" alt="Artifical Intelligence" style="width:100%;">
+        <br/>
+
+
+         <p>Data can be considered ‘the new oil’, as it’s the raw material of the digital economy. But much like oil remains useless without specialized machinery to extract and process it, so data remains useless, trapped in vast cloud databases. Artificial intelligence can help businesses mine for the unique ‘gems’ found in these databases, processing billions of data points in a matter of minutes. And the best part is that AI isn’t static. It learns and adapts. These insights can be fed back to the business to better its processes.</p>
+      </div>
+    
+      <div class="item">
+        <img src="lFAAURl.jpg" alt="Cloud analyitics " style="width:100%;">
+        <br/>
+        <p>Artificial Intelligence is like an iceberg, there is a lot hidden than what is visible. The true potential of AI is yet to come out. The way AI and cloud computing is changing the landscape of corporate world; it is believed to be the future of technology. Artificial Intelligence has the potential to further streamline the immense capabilities of cloud computing. Artificial Intelligence equips cloud computing with tremendous power. It enables machines to learn, think, act, and react like human beings. AI helps machines to analyze and learn from the historical data, identify patterns and make real-time decisions. This will lead to process automation which will eradicate the possibility of human errors.</p>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+ <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="#"> Esaytech </a></h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Contact us</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2018 Copyright Text </p>
+        </div>
+    </footer>
+
+				
+			</div>
+
+
+
+		</div>
+
+			<script src="js/jquery.min"></script>
+			<script src="js/bootstrap.min"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>

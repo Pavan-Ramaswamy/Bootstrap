@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First bootstrap example</title>
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+ 		 
+
+
+
+
+</head>
+<body>
+
+	<div class="container">
+
+				<div class="row">
+						<div class="col-xs-6">
+								<ul class="nav nav-pills">
+									<li> <a href="#"></a>Home </li>
+									<li> <a href="#"></a>profile </li>
+									<li> <a href="#"></a>messages </li>
+									<li><a href="#"><span class="caret">Dropdown</span></a></li>
+								</ul>
+													
+						</div>
+					
+				</div>
+				
+			</div>
+
+			<script src="js/jquery.min"></script>
+			<script src="js/bootstrap.min"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

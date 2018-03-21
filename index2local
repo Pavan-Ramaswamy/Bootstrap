@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First bootstrap example</title>
+ 		<link rel="stylesheet" href="css/bootstrap.min.css">
+ 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+ 		 
+
+
+
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 bg-success">
+				<!--<ul class="list-group">
+				<li class="list-group-item active">
+				<span class="badge">14</span>
+				me
+				</li>
+				<li class="list-group-item disabled">you</li>
+				<li class="list-group-item  list-item-success">all</li>
+				<li class="list-group-item">well</li>
+				</ul>!-->
+				<div class="jumbotron bg-purple" >
+					<p>This is Lifeeasy jumbotron</p>					
+				</div>
+
+				<div class="well bg-warning">
+				<p>This is well </p>	
+				</div>
+
+				<div class="dropdown" col-xs-6>
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle=
+					"dropdown" >
+					dropdown
+					<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" aria-labelled-by="dropdownmenu">
+					<li><a href="#">some link</a></li>
+					<li><a href="#">some link2</a></li>
+					<li><a href="#">some link3</a></li>
+						
+					</ul>
+					
+				</div>
+			</div>
+
+				
+		</div>
+		
+	</div>
+			<script src="js/jquery.min"></script>
+			<script src="js/bootstrap.min"></script>
+</body>
+</html>
